@@ -14,13 +14,13 @@ export class RecipeService {
     new Recipe(
       'Tasty Schnitzel',
       'A super-tasty schnitzel - just awesome',
-      'https://497543-1573563-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/01/german-schnitzel-on-plate.jpg',
+      '../../assets/schnitzel.jpg',
       [new Ingredient('Meat', 6), new Ingredient('French Fries', 42)]
     ),
     new Recipe(
       'Big fat burger',
       'What else you need to say?',
-      'https://nevafood.ru/wp-content/uploads/2017/07/burger-ayam.jpg',
+      '../../assets/burger.jpg',
       [new Ingredient('Buns', 3), new Ingredient('Meat', 2)]
     ),
   ];

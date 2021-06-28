@@ -1,8 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
+// Modules
 import { Ingredient } from '../shared/ingredient.module';
 
+// Services
 import { ShoppingListService } from './shopping-list.service';
 
 @Component({
