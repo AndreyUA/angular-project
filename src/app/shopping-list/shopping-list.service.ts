@@ -6,6 +6,8 @@ export class ShoppingListService {
   // ingredientsChanged = new EventEmitter<Array<Ingredient>>();
   ingredientsChanged = new Subject<Array<Ingredient>>();
 
+  startedEditing = new Subject<number>();
+
   private ingredients: Array<Ingredient> = [
     new Ingredient('Apples', 5),
     new Ingredient('Tomatos', 10),
