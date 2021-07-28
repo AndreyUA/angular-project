@@ -7,6 +7,7 @@
           <input
             ngModel
             name="name"
+            required
             type="text"
             id="name"
             class="form-control"
@@ -17,6 +18,7 @@
           <input
             ngModel
             name="amount"
+            required
             type="number"
             id="amount"
             class="form-control"
@@ -25,7 +27,9 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <button class="btn btn-success" type="submit">Add</button>
+          <button [disabled]="!f.valid" class="btn btn-success" type="submit">
+            Add
+          </button>
           <button class="btn btn-danger" type="button">Delete</button>
           <button class="btn btn-primary" type="button">Clear</button>
         </div>
